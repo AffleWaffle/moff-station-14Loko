@@ -1,0 +1,32 @@
+- type: cargoBounty
+  id: BountyCryox
+  reward: 6000
+  description: bounty-description-cryox
+  entries:
+  - name: bounty-item-cryox
+    amount: 1
+    whitelist:
+      tags:
+      - CryoxadoneBeakerSmall
+
+- type: cargoBounty
+  id: BountyAppraisal
+  reward: 3000
+  description: bounty-description-appraisal-tools
+  entries:
+  - name: bounty-item-appraisal-tools
+    amount: 2
+    whitelist:
+      tags:
+      - AppraisalTool
+
+- type: cargoBounty
+  id: BountyAppraisal
+  reward: 3000
+  description: bounty-description-psicodine-pill
+  entries:
+  - name: bounty-item-psicodine-pill
+    amount: 6
+    whitelist:
+      tags:
+      - Pill

@@ -13,6 +13,12 @@
 - type: Tag
   id: FoamGrenade
 
+- type: Tag
+  id: CryoxadoneBeakerSmall
+
+- type: Tag
+  id: EthanolJug
+
 # Pirate bounty objectives
 
 - type: Tag

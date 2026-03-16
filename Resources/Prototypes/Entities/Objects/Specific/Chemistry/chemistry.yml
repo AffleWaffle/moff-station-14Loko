@@ -188,6 +188,11 @@
   parent: Beaker
   id: CryoxadoneBeakerSmall
   components:
+  # Moffstation - Start - New Bounties
+  - type: Tag
+    tags:
+    - CryoxadoneBeakerSmall
+  # Moffstation - End
   - type: Label
     currentLabel: reagent-name-cryoxadone
   - type: SolutionContainerManager

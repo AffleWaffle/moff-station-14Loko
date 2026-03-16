@@ -390,6 +390,10 @@
   id: JugEthanol
   categories: [ HideSpawnMenu ]
   components:
+  # Moffstation - Start - New Bounties
+  - type: Tag
+    id: EthanolJug
+  # Moffstation - End
   - type: Label
     currentLabel: reagent-name-ethanol
   - type: SolutionContainerManager
