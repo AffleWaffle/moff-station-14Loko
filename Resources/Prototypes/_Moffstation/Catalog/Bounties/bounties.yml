@@ -1,13 +1,13 @@
 - type: cargoBounty
-  id: BountyCryox
+  id: BountyEthanol
   reward: 6000
-  description: bounty-description-cryox
+  description: bounty-description-ethanol
   entries:
-  - name: bounty-item-cryox
+  - name: bounty-item-ethanol
     amount: 1
     whitelist:
       tags:
-      - CryoxadoneBeakerSmall
+      - EthanolJug
 
 - type: cargoBounty
   id: BountyAppraisal
