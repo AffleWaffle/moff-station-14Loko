@@ -260,3 +260,14 @@
     - item: WeaponShotgunBlackbox
   - type: BorgModuleIcon
     icon: { sprite: _Moffstation/Interface/Actions/actions_borg.rsi, state: pirate-module }
+
+- type: entity
+  id: BorgModuleRedEye
+  parent: [ BaseBorgModule, BaseProviderBorgModule ]
+  name: red eye cyborg module
+  description: A universal cyborg module which allows the unit to install and manipulate electrical systems.
+  components:
+  - type: BorgModule
+    actions:
+    - ActionToggleRedEye
+    icon: { sprite: Interface/Actions/actions_borg.rsi, state: wire-module }

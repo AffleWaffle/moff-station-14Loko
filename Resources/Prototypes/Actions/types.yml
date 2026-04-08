@@ -86,6 +86,20 @@
     icon: { sprite: Objects/Tools/flashlight.rsi, state: flashlight }
     iconOn: { sprite: Objects/Tools/flashlight.rsi, state: flashlight-on }
 
+# Moffstation - Start - Red Eyes Module
+- type: entity
+  parent: BaseToggleAction
+  id: ActionToggleRedEye
+  name: Toggle Red Eye
+  description: Toggle red eye mode.
+  components:
+    - type: Action
+      useDelay: 0.5
+      icon: { sprite: Objects/Devices/robotics.rsi, state: borg_eye }
+      iconOn: { sprite: Objects/Devices/robotics.rsi, state: borg_eye }
+    - type: ToggleRedEyeActionComponent
+# Moffstation - End
+
 - type: entity
   parent: BaseAction
   id: ActionOpenStorageImplant
